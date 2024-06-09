@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header
+{
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url('pexels-photo-2468773.jpeg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+
+}
+
+.nav-contact a{
+  padding: 3px 28px;
+  font-size: 3.1vmin;
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+.nav-contact a:hover{
+  color: red;
+}
+
+.logo{
+  color: whitesmoke;
+  font-size: 1.7em;
+}
+
+.ctn a{
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: indianred;
+  padding: 6px 20px;
+  border-radius: 15px;
+}
